@@ -1,5 +1,5 @@
 env:
-  dev22133
+  dev2
 spring:
   application:
     name: order
