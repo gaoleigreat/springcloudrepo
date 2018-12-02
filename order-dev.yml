@@ -1,5 +1,5 @@
 env:
-  dev23456678
+  dev2
 spring:
   application:
     name: order
@@ -16,4 +16,4 @@ server:
   port: 7001
 girl:
   name:  xioao
-  age: 23456888
+  age: 2
