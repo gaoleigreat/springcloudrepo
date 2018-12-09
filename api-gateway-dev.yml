@@ -7,3 +7,9 @@ eureka:
       defaultZone:  http://localhost:8761/eureka/
 server:
   port: 7005
+zuul:
+  routes:
+    product: /myproduct/**
+  ignored-patterns:
+    - /**/product/listForOrder
+  sensitive-headers: 
