@@ -6,7 +6,7 @@ eureka:
     service-url:
       defaultZone:  http://localhost:8761/eureka/
 server:
-  port: 7005
+  port: 7004
 zuul:
   routes:
     product: /myproduct/**
