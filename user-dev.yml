@@ -15,4 +15,4 @@ eureka:
     port: 6379
 
 server:
-  port: 7006
+  port: 7005
